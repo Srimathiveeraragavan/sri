@@ -1,11 +1,11 @@
 #include<stdio.h>
 main()
 {
-int n,c=o,i;
+int n,c=0,i;
 scanf("%d",&n);
-for(i=2;i<++i){
+for(i=2;i<=n/2;++i){
 if(n%i==0){
-c=0;
+c=1;
 break;}
 }
 if(c==0){
