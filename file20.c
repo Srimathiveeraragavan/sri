@@ -1,11 +1,16 @@
 #include<stdio.h>
 main()
 {
-int i,f,r;
+int i,f,s=0,r;
 scanf("%d",&i);
 for(f=1;f<=i;++f){
 r=i*f;
-printf(" %d",r);
+ if(s==0){
+printf("%d",r);
+   s++;}
+  else{
+    printf(" %d",r);}
+  
 }
 
 }
