@@ -2,7 +2,7 @@
 //#include<conio.h>
 main()
 {
-int a,i,x,y,temp,s=0;
+int a,i,x,y,temp;
 scanf("%d",&a);
 int arr[a];
 for(i=0;i<a;i++)
