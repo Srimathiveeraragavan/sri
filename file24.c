@@ -1,15 +1,17 @@
 #include<stdio.h>
+//#include<conio.h>
 main()
 {
-int a,i,x,y,temp,j;
+int a,i,x,y,temp,s=0;
 scanf("%d",&a);
 int arr[a];
 for(i=0;i<a;i++)
   {
-  scanf("%d",arr[i]);
+  scanf("%d",&arr[i]);
   }
+  
 //sorting
-for(x=0;x<=a;x++)
+for(x=0;x<a;x++)
   {
   for(y=0;y<=a-1;y++)
     {
@@ -21,9 +23,15 @@ for(x=0;x<=a;x++)
       }
     }
   }
-for(j=0;j<a;j++)
-{
-printf("%d.",arr[j]);
+for(i=0;i<a;i++)
+  {
+ // printf("%d..",arr[i]);
+ if(s==0){
+printf("%d",arr[i]);
+s++;
 }
+else{
+printf(" %d",arr[i]);}
+  }
 
 }
