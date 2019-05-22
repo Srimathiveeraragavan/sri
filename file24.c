@@ -13,7 +13,7 @@ for(i=0;i<a;i++)
 //sorting
 for(x=0;x<a;x++)
   {
-  for(y=0;y<=a-1;y++)
+  for(y=0;y<a-1;y++)
     {
     if(arr[y]>arr[y+1])
       {
