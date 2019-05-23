@@ -1,10 +1,10 @@
 #include<stdio.h>
 main()
 {
-int i,k;
-scanf("%d %d",&i,&k);
-i=i^k;
-k=i^k;
-i=i^k;
-printf("%d %d",i,k);
+int i,j;
+scanf("%d %d",&i,&j);
+i=i^j;
+k=i^j;
+i=i^j;
+printf("%d %d",i,j);
 }
