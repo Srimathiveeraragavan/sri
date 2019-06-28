@@ -51,7 +51,7 @@
 			while($row = $result-> fetch_assoc()){
 			
 			echo "<hr>";
-			echo "<h6>Blog Number - </h6>".$row['id']."<br>";
+			echo "Blog Number - ".$row['id']."<br>";
 			echo "Title        :".$row['title']." "." "." <br>";
 			echo "Category     :".$row['cetegory']."<br>";
 			echo "Tags         :".$row['tags']."<br>";
@@ -74,13 +74,13 @@
 		//$admin = "<div> <a href='del_post.php ? pid=$id'>delete</a>;<a href='edit_post.php ? pid=$id'>edit</a></div>";
 		?>
 <a href="logout.php">logout</a>		
-<a href="login_html.html">for more</a>
+<a href="login_html.html">login</a>
 <br>
 
 		
 <a href="post.php">ADD</a><!--add new blog do add edit delete view-->
-<a href="delete.php">DELETE</a>
-<a href="update.php">EDIT</a>
+<!--<a href="delete.php">DELETE</a>
+<a href="update.php">EDIT</a>-->
 <a href="index.php">VIEW</a>
 </div>
 </div>
