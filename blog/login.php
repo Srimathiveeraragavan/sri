@@ -1,4 +1,3 @@
-
 <?php
 //displat the content i db-blog table-posts
 //connection detail
@@ -24,7 +23,7 @@ if($result ->num_rows > 0)
 	{
 		//echo "we hwve data<br>";
 		while($row = $result-> fetch_assoc()){
-		//echo "<hr>";
+		//echo "<hr>"; 
 		//echo $row['email'];
 		//echo $row['password'];
 			if($row['email'] == $title_i){
