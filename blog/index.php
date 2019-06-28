@@ -75,7 +75,9 @@
 		?>
 <a href="logout.php">logout</a>		
 <a href="login_html.html">for more</a>
-<br>		
+<br>
+
+		
 <a href="post.php">ADD</a><!--add new blog do add edit delete view-->
 <a href="delete.php">DELETE</a>
 <a href="update.php">EDIT</a>
@@ -86,5 +88,4 @@
 </body>
 
 </html>
-
 
